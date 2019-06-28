@@ -1,0 +1,6 @@
+.appBar{
+    top: fixed;
+  }
+  .grow{
+    flex-grow: 1;
+  }
