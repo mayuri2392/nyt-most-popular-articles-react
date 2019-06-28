@@ -13,9 +13,9 @@ Steps to execute the program: <br/>
     2. cd nyt-most-popular-articles-react <br/>
     3. npm install <br/>
     4. npm start <br/>
-    5. (if error, then run SKIP_PREFLIGHT_CHECK=true npm start) <br/>	
+       (if error, then run SKIP_PREFLIGHT_CHECK=true npm start) <br/>	
 <br/>       
 Steps to run unit test and code coverage: <br/>
-    1. npm test <br/>
+    1. npm test <br/>  (if error, then run SKIP_PREFLIGHT_CHECK=true npm test) <br/>	
     2. npm run test:coverage <br/>
     3. npm run test:update <br/>
