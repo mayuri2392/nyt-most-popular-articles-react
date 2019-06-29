@@ -1,6 +1,6 @@
 import React from "react";
-import ArticleList from "../Components/ArticlesList";
-import { mount, shallow } from 'enzyme';
+import ArticleList from "../components/ArticlesList";
+import { shallow } from 'enzyme';
 
 describe('<ArticleList />', () => {
   it("doesn't break with an empty array", () => {

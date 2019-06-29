@@ -1,13 +1,13 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import Nav from '../Components/Nav';
+import { shallow } from 'enzyme';
+import Nav from '../components/Nav';
 
 describe('Nav Component', () => {
   let wrapper;
   beforeEach(() => {
     wrapper = shallow(<Nav />)
   })
-   it('should be a there', () => {
+  it('should be a there', () => {
     expect(wrapper).toBeDefined()
   });
   it("renders", () => {
